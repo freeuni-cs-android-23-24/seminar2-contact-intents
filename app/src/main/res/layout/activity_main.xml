@@ -7,21 +7,21 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/picked_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is first screen"
+        android:text="No Contact"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/start_activity"
+        android:id="@+id/pick_contact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start second"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:text="Pick Contact"
+        app:layout_constraintBottom_toTopOf="@+id/picked_contact"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
